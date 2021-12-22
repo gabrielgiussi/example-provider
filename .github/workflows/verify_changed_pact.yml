@@ -3,7 +3,7 @@ name: Verify changed pact
 on:
   repository_dispatch:
     types:
-      - pact_changed
+      - contract_requiring_verification_published
 
 env:
   PACT_BROKER_BASE_URL: https://ggiussi.pactflow.io
